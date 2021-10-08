@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/Mobina/Downloads/Telegram Desktop/Cad_project_96522321_97522184/Cad_project_96522321_97522184/verilog/cad_project/BabyCry.xst" -ofn "C:/Users/Mobina/Downloads/Telegram Desktop/Cad_project_96522321_97522184/Cad_project_96522321_97522184/verilog/cad_project/BabyCry.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I "BabyCry.ngc" BabyCry.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o BabyCry_map.ncd BabyCry.ngd BabyCry.pcf 
+par -w -intstyle ise -ol high -mt off BabyCry_map.ncd BabyCry.ncd BabyCry.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml BabyCry.twx BabyCry.ncd -o BabyCry.twr BabyCry.pcf 
+xst -intstyle ise -ifn "C:/Users/Mobina/Downloads/Telegram Desktop/Cad_project_96522321_97522184/Cad_project_96522321_97522184/verilog/cad_project/BabyCry.xst" -ofn "C:/Users/Mobina/Downloads/Telegram Desktop/Cad_project_96522321_97522184/Cad_project_96522321_97522184/verilog/cad_project/BabyCry.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I "BabyCry.ngc" BabyCry.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o BabyCry_map.ncd BabyCry.ngd BabyCry.pcf 
+par -w -intstyle ise -ol high -mt off BabyCry_map.ncd BabyCry.ncd BabyCry.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml BabyCry.twx BabyCry.ncd -o BabyCry.twr BabyCry.pcf 

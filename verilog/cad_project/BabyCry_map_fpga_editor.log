@@ -1,0 +1,103 @@
+#:C39    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Users\Mobina\Downloads\Telegram Desktop\Cad_project_96522321_97522184\Cad_project_96522321_97522184\verilog\cad_project
+#Date/Time:
+#:T   Tue Feb 02 13:54:08 2021
+#------------------------------
+	#Reading BabyCry_map.ncd...
+	#Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "BabyCry" is an NCD, version 3.2, device xa7a100t, package csg324, speed -2i
+	#Design creation date: 2021.02.02.10.23.48
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+unselect -all
+	#3
+select wire 'HLONG(22204,593)'
+	#node = HLONG(22204,593)
+	#4
+unselect -all
+	#5
+select site 'SLICE_X44Y171'
+	#site "SLICE_X44Y171",  type = SLICEL  (RPM grid X113Y342)
+	#6
+setattr main  disable_draw true
+	#7
+setattr layer * color GREY fill HOLLOW
+	#8
+setattr layer long_lines  color MAGENTA
+	#9
+setattr layer pinwires color DARK_GREEN
+	#10
+setattr layer clock_regions color BLACK fill SOLID
+	#11
+setattr layer components color BLUE fill SOLID
+	#12
+setattr layer ratsnests color GREEN fill SOLID
+	#13
+setattr layer routes color CYAN fill SOLID
+	#14
+setattr layer hilite color YELLOW
+	#15
+setattr layer select color RED
+	#16
+setattr layer text color BLACK
+	#17
+setattr layer block_prim color BLACK
+	#18
+setattr layer block_wire color MAGENTA
+	#19
+setattr layer block_config color CYAN
+	#20
+setattr layer block_name color GREEN
+	#21
+setattr layer hard_macros color GREY fill SOLID
+	#22
+setattr layer user_rpms color CYAN fill SOLID
+	#23
+setattr layer tool_rpms color MAGENTA fill SOLID
+	#24
+setattr main disable_draw false
+	#25
+setattr main  disable_draw true
+	#26
+setattr layer * color GREY fill HOLLOW
+	#27
+setattr layer long_lines  color MAGENTA
+	#28
+setattr layer pinwires color DARK_GREEN
+	#29
+setattr layer clock_regions color BLACK fill SOLID
+	#30
+setattr layer components color BLUE fill SOLID
+	#31
+setattr layer ratsnests color GREEN fill SOLID
+	#32
+setattr layer routes color CYAN fill SOLID
+	#33
+setattr layer hilite color YELLOW
+	#34
+setattr layer select color RED
+	#35
+setattr layer text color WHITE
+	#36
+setattr layer block_prim color WHITE
+	#37
+setattr layer block_wire color MAGENTA
+	#38
+setattr layer block_config color CYAN
+	#39
+setattr layer block_name color GREEN
+	#40
+setattr layer hard_macros color GREY fill SOLID
+	#41
+setattr layer user_rpms color CYAN fill SOLID
+	#42
+setattr layer tool_rpms color MAGENTA fill SOLID
+	#43
+setattr main disable_draw false

@@ -1,0 +1,28 @@
+Command line:
+   ventilationTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61709
+
+Tue Feb 02 13:34:00 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5154.13 Meg
+
+ Total Signals          : 18
+ Total Nets             : 21
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 109
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5154.13 Meg
+
+Tue Feb 02 13:34:07 2021
+

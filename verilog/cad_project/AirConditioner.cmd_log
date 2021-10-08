@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Mobina/Downloads/Telegram Desktop/Cad_project_96522321_97522184/Cad_project_96522321_97522184/verilog/cad_project/AirConditioner.xst" -ofn "C:/Users/Mobina/Downloads/Telegram Desktop/Cad_project_96522321_97522184/Cad_project_96522321_97522184/verilog/cad_project/AirConditioner.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I "AirConditioner.ngc" AirConditioner.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AirConditioner_map.ncd AirConditioner.ngd AirConditioner.pcf 
+par -w -intstyle ise -ol high -mt off AirConditioner_map.ncd AirConditioner.ncd AirConditioner.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml AirConditioner.twx AirConditioner.ncd -o AirConditioner.twr AirConditioner.pcf 
+xst -intstyle ise -ifn "C:/Users/Mobina/Downloads/Telegram Desktop/Cad_project_96522321_97522184/Cad_project_96522321_97522184/verilog/cad_project/AirConditioner.xst" -ofn "C:/Users/Mobina/Downloads/Telegram Desktop/Cad_project_96522321_97522184/Cad_project_96522321_97522184/verilog/cad_project/AirConditioner.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I "AirConditioner.ngc" AirConditioner.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AirConditioner_map.ncd AirConditioner.ngd AirConditioner.pcf 
+par -w -intstyle ise -ol high -mt off AirConditioner_map.ncd AirConditioner.ncd AirConditioner.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml AirConditioner.twx AirConditioner.ncd -o AirConditioner.twr AirConditioner.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml AirConditioner_preroute.twx AirConditioner_map.ncd -o AirConditioner_preroute.twr AirConditioner.pcf 
+netgen -intstyle ise -s 2I  -pcf AirConditioner.pcf -sdf_anno true -sdf_path "netgen/map" -insert_glbl true -w -dir netgen/map -ofmt verilog -sim AirConditioner_map.ncd AirConditioner_map.v 
