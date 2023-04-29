@@ -1,4 +1,4 @@
-# Smart Room 
+# Smart Room  
 
 Kids are the most important part of a family that needs so much care.
 In real life, you have many works to do which makes you forget to do something that you have been planned for but now in this smart room, we do something to take care of your room and house while you are busy enough to forget what you are about doing and also gives you an alert to do it yourself.
